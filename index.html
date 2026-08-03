@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConcertCam — Support</title>
+  <meta name="description" content="Support and help for ConcertCam, the dual-camera recording app.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f6f6f8;
+      --text: #16161a;
+      --muted: #5c5c6b;
+      --border: #e6e6ec;
+      --accent: #6d5cff;
+      --accent-contrast: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e0e12;
+        --surface: #17171d;
+        --text: #f2f2f6;
+        --muted: #a0a0b0;
+        --border: #26262f;
+        --accent: #9d8cff;
+        --accent-contrast: #0e0e12;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%;
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 aut; }
+    header { margin-bottom: 40px; }
+    .badge {
+      display: inline-block;
+      font-size: 13px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: 34px; line-height: 1.15; margin: 0 0 10px; letter-spacing: -0.02em; }
+    .lede { color: var(--muted); font-size:
+    h2 { font-size: 20px; margin: 40px 0 14px; letter-spacing: -0.01em; }
+    p { margin: 0 0 14px; }
+    a { color: var(--accent); }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+    }
+    .contact-actions { display: flex; flex-gin-top: 6px; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--accent-contrast);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 11px 18px;
+      border-radius: 10px;
+    }
+    .muted { color: var(--muted); }
+    details {
+      border-bottom: 1px solid var(--border
+      padding: 14px 2px;
+    }
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    details summary::-webkit-details-marker
+    details summary::after { content: "+"; color: var(--muted); font-weight: 400; font-size: 20px; }
+    details[open] summary::after { content:
+    details .answer { padding-top: 10px; color: var(--muted); }
+    footer {
+      margin-top: 56px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <span class="badge">ConcertCam</span>
+      <h1>Support</h1>
+      <p class="lede">Record your front andtime. Here's how to get help.</p>
+    </header>
+
+    <section class="card">
+      <h2 style="margin-top:0">Contact us</
+      <p>Questions, bugs, or feedback? Email us and we'll get back to you, usually within a couple of business
+days.</p>
+      <!-- EDIT: replace with your real support email address -->
+      <div class="contact-actions">
+        <a class="btn" href="mailto:studiopandamarmot@gmail.com?subject=ConcertCam%20Support">Email support</a>
+      </div>
+      <p class="muted" style="margin-top:14px; margin-bottom:0; font-size:14px;">
+        @studiopandamarmot@gmail.com
+      </p>
+    </section>
+
+    <h2>Frequently asked questions</h2>
+
+    <details>
+      <summary>Which devices are supported?</summary>
+      <div class="answer">
+        ConcertCam records both cameras simultaneously, which requires a device with
+        multi-camera support: <strong>iPhon/strong>, or an
+        iPad with an A12 Bionic chip or later. On older devices the app opens but
+        shows a "Multi-Camera Not Supported.
+      </div>
+    </details>
+
+    <details>
+      <summary>Where are my recordings saved?</summary>
+      <div class="answer">
+        Finished recordings are saved to your <strong>Photos</strong> library. Grant
+        photo-access when prompted so ConcertCam can save them. If you enabled it,
+        clips are also tagged with the location where they were filmed.
+      </div>
+    </details>
+
+    <details>
+      <summary>What's the difference betwee</summary>
+      <div class="answer">
+        <strong>Picture in Picture</strong> one camera
+        full-screen and the other in a corner inset. <strong>Two Files</strong> saves
+        each camera to its own synced videos in Settings.
+      </div>
+    </details>
+
+    <details>
+      <summary>Does it record audio?</summary>
+      <div class="answer">
+        Yes — audio is recorded together with your video from the device microphone.
+      </div>
+    </details>
+
+    <details>
+      <summary>What does "Stabilize Back Ca
+      <div class="answer">
+        When your device and capture settins handheld shake
+        on the back camera. On some devices stabilization isn't available while both
+        cameras run at once — Settings willese settings"
+        when that's the case, and trying a different resolution or frame rate may help.
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I request a refund?</
+      <div class="answer">
+        App Store purchases are handled by efund at
+        <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.
+      </div>
+    </details>
+
+    <footer>
+      <!-- EDIT: link this to your privacy requires one) -->
+      <p><a href="#">Privacy Policy</a></p>
+      <!-- EDIT: your company / developer n
+      <p>© 2026 Studio Panda Marmot. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
